@@ -8,7 +8,7 @@ import sys
 if __name__ == '__main__':
     A = tuple(map(int, input().split()))
     if len(A) != 10:
-        print("Неверный размер списка", file=sys.stderr)
+        print("Неверный размер кортежа", file=sys.stderr)
         exit(1)
     L = []
     for i in A:
